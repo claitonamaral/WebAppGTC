@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>aspnet-GTC.UI.Web-1E1D7792-5520-45D5-AED9-3D32B9852DA8</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.4" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GTC.ApplicationCore\GTC.ApplicationCore.csproj" />
+    <ProjectReference Include="..\GTC.Infrastruture\GTC.Infrastruture.csproj" />
+  </ItemGroup>
+
+</Project>
