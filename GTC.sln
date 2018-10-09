@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2019
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - UI", "1 - UI", "{CE96A928-3E83-4A11-BBDF-153E0EE7BB51}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{CE96A928-3E83-4A11-BBDF-153E0EE7BB51}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{5BE7A94F-DF3B-413B-AD20-DDA6C0BD0E74}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infrastructure", "3 - Infrastructure", "{EC5E4B60-1E8B-402F-B21D-A0D4252D003B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTC.ApplicationCore", "src\GTC.ApplicationCore\GTC.ApplicationCore.csproj", "{A904FBE6-D80D-40B1-B5B3-EC4A0CB72AC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GTC.ApplicationCore", "src\GTC.ApplicationCore\GTC.ApplicationCore.csproj", "{A904FBE6-D80D-40B1-B5B3-EC4A0CB72AC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTC.Infrastruture", "src\GTC.Infrastruture\GTC.Infrastruture.csproj", "{9E6CBEE6-C6BD-4D9B-93EE-8792355520DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GTC.Infrastruture", "src\GTC.Infrastruture\GTC.Infrastruture.csproj", "{9E6CBEE6-C6BD-4D9B-93EE-8792355520DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTC.UI.Web", "src\GTC.UI.Web\GTC.UI.Web.csproj", "{AEC1F92F-CEA2-41EC-BF1E-54B81A0E902E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GTC.UI.Web", "src\GTC.UI.Web\GTC.UI.Web.csproj", "{AEC1F92F-CEA2-41EC-BF1E-54B81A0E902E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
